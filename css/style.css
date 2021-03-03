@@ -16,17 +16,12 @@ header .row{
     line-height: 7rem;
 }
 
-header h1{
-    font-size: 15px;
-    font-weight:bold;
-    margin: 0;
-    line-height: 7rem;
-}
-
-
 /* MAIN */
 /* -HERO SECTION*/
-
+.hero h1{
+    font-size: 20px;
+    font-weight: 600;
+}
 /* -PORTFOLIO SECTION */
 
 /* -ABOUT SECTION */
