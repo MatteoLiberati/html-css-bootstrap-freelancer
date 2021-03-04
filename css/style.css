@@ -1,10 +1,29 @@
 /* GENERAL */
 
+
+.line-star hr{
+    width: 150px;
+    border-width: 2px;
+}
+
+.line-star .fa-star{
+    background-color: #1abc9c;
+    font-size: 18px;
+    padding: 0 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* UTILITIES */
 .mt-20{
     margin-top: 20px;
 }
 
+.relative{
+    position: relative;
+}
 /* COLOR */
 .bg-darkgrey{
     background-color: #2c3e50;
@@ -35,14 +54,37 @@ header .nav-custom{
 /* MAIN */
 
 /* -HERO SECTION*/
+main section.hero{
+    padding: 30px 0;
+}
+
 main .hero h1{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
+}
+
+main .hero img{
+    max-width: 200px;
+    margin: 0 auto;
 }
 
 main .hero .description-hero{
     font-size: 12px;
 }
+
+main .hero .content-hero ul{
+    padding:0;
+}
+
+main .hero .content-hero ul li{ 
+    display: inline-block;
+    list-style: none;
+}
+
+main .hero .content-hero a{ 
+    color: white;
+}
+
 /* -PORTFOLIO SECTION */
 
 /* -ABOUT SECTION */
