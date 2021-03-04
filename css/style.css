@@ -1,4 +1,5 @@
 /* GENERAL */
+
 /* UTILITIES */
 .mt-20{
     margin-top: 20px;
@@ -29,6 +30,7 @@ header nav ul a{
 }
 
 /* MAIN */
+
 /* -HERO SECTION*/
 main .hero h1{
     font-size: 20px;
@@ -39,8 +41,11 @@ main .hero .description-hero{
     font-size: 12px;
 }
 /* -PORTFOLIO SECTION */
+
 /* -ABOUT SECTION */
+
 /* -CONTACT ME SECTION */
+
 /* FOOTER */
 footer{
     background-color: #3a546d;
@@ -54,13 +59,8 @@ footer .copyright{
 
 /* TABLET RESPONSIVE >768PX SM*/
 @media screen and (min-width:768px){
-    .container{
-        width: 100%;
-        max-width: 1170px;
-    }
 }
 
 /* DESKTOP RESPONSIVE >992PX MD */
 @media screen and (min-width:992px){
-
 }
