@@ -6,10 +6,23 @@ h4{
     font-weight: bold;
 }
 
+/* UTILITIES */
+.mt-20{
+    margin-top: 20px;
+}
+
+.relative{
+    position: relative;
+}
+
 .line-star hr{
     width: 150px;
     border-width: 2px;
     border-color: inherit;
+}
+
+.line-star hr.small-hr{
+    width: 70px;
 }
 
 .line-star .fa-star{
@@ -26,14 +39,11 @@ h4{
     background-color: white;
 }
 
-/* UTILITIES */
-.mt-20{
-    margin-top: 20px;
+.padding-section{
+    padding-top: 30px;
+    padding-bottom: 30px
 }
 
-.relative{
-    position: relative;
-}
 /* COLOR */
 .bg-darkgrey{
     background-color: #2c3e50;
@@ -64,10 +74,6 @@ header .nav-custom{
 /* MAIN */
 
 /* -HERO SECTION*/
-main section.hero{
-    padding: 30px 0;
-}
-
 main .hero h1{
     font-size: 25px;
 }
@@ -96,21 +102,26 @@ main .hero .content-hero a{
 }
 
 /* -PORTFOLIO SECTION */
-main .portfolio{
-    padding: 50px 0px;
-}
 
 main .portfolio img{
     border-radius: 8px;
     margin-bottom: 20px;
 }
 
-main .portfolio img:last-child{
+main .portfolio .row div:last-child img{
     margin-bottom: 0;
 }
 
 /* -ABOUT SECTION */
+/* --DOWNLOAD BUTTON */
+.about a.btn-download{
+    background: transparent;
+    color: #fff;
+}
 
+main .btn > i{
+    margin-right: 10px;
+}
 /* -CONTACT ME SECTION */
 
 /* FOOTER */
