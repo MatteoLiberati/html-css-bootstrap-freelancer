@@ -1,9 +1,15 @@
 /* GENERAL */
-
+h1,
+h2,
+h3,
+h4{
+    font-weight: bold;
+}
 
 .line-star hr{
     width: 150px;
     border-width: 2px;
+    border-color: inherit;
 }
 
 .line-star .fa-star{
@@ -14,6 +20,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.line-star .fa-star.star-black{
+    background-color: white;
 }
 
 /* UTILITIES */
@@ -60,7 +70,6 @@ main section.hero{
 
 main .hero h1{
     font-size: 25px;
-    font-weight: 600;
 }
 
 main .hero img{
@@ -78,6 +87,7 @@ main .hero .content-hero ul{
 
 main .hero .content-hero ul li{ 
     display: inline-block;
+    font-size: 16px;
     list-style: none;
 }
 
@@ -86,6 +96,18 @@ main .hero .content-hero a{
 }
 
 /* -PORTFOLIO SECTION */
+main .portfolio{
+    padding: 50px 0px;
+}
+
+main .portfolio img{
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+main .portfolio img:last-child{
+    margin-bottom: 0;
+}
 
 /* -ABOUT SECTION */
 
