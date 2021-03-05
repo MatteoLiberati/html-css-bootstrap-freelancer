@@ -1,4 +1,8 @@
 /* GENERAL */
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -97,6 +101,10 @@ header .nav-custom{
 .navbar-default .navbar-brand:hover{
     color: white;
     transform:scale(1.1)
+}
+
+.navbar-default .navbar-brand:focus{
+    color: white;
 }
 
 .navbar-default .navbar-brand{
@@ -297,7 +305,6 @@ footer .copyright{
     }
 
     /* MAIN */
-
     main .btn-adapted{
         font-size: 1em;
     }
