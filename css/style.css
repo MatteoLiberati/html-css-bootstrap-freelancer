@@ -48,6 +48,16 @@ h5{
     padding-bottom: 3em;
 }
 
+.btn-adapted{
+    transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.btn-adapted:hover {
+    background-color: white;
+    border-color: black;
+    transform: scale(1.1);
+}
+
 /* COLOR */
 .bg-darkgrey{
     background-color: #2c3e50;
@@ -69,10 +79,16 @@ header .nav-custom{
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand{
     color: rgb(251, 251, 251);
+    transition: color 0.2s ,transform 0.4s;
 }
 
 .navbar-default .navbar-nav > li > a:hover{
     color: #1abc9c;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: white;
+    transform:scale(1.1)
 }
 
 .navbar-default .navbar-brand{
@@ -111,6 +127,12 @@ main .hero .content-hero ul li{
 
 main .hero .content-hero a{ 
     color: white;
+    transition: color 0.2s;
+}
+
+main .hero a:hover{
+    text-decoration: none;
+    color: #2c3e50;
 }
 
 /* -PORTFOLIO SECTION */
@@ -120,11 +142,41 @@ main .portfolio .line-star{
 
 main .portfolio img{
     border-radius: 8px;
+}
+
+main .portfolio .row > div > div{
     margin-bottom: 20px;
 }
 
 main .portfolio .row div:last-child img{
     margin-bottom: 0;
+}
+
+main .portfolio .layover-img{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: black;
+    opacity: 0.25;
+}
+
+main .portfolio i{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3.5em;
+    transform: translate(-50%, -50%);
+    Color: rgb(241, 237, 237);
+}
+
+main .portfolio .relative:hover .layover-img,
+main .portfolio .relative:hover i{
+    display:block;
 }
 
 /* -ABOUT SECTION */
@@ -157,6 +209,10 @@ main .btn > i{
     border-color: transparent;
 }
 
+.contact-me button[type="submit"]:hover{
+    border-color:black;
+}
+
 /* FOOTER */
 footer{
     background-color: #3a546d;
@@ -171,13 +227,19 @@ footer .around-the-web ul{
 
 footer .around-the-web li{
     display: inline-block;
-    height: 3em;
-    width: 3em;
-    line-height: 3em;
+    margin-top: 0.3em;
+    height: 2.5em;
+    width: 2.5em;
+    line-height: 2.5em;
     font-size: 1em;
     border: 1px solid #fff;
     border-radius: 50%;
     margin-right: 5px;
+    transition: transform 0.3s
+}
+
+footer .around-the-web li:hover{
+    transform: rotate3d(0, 0, 8, 360deg);
 }
 
 footer .around-the-web a:last-child li{
@@ -222,8 +284,8 @@ footer .copyright{
     footer .mt-1-4em{
         margin-top:0;
     }
-
-/* DESKTOP RESPONSIVE >992PX MD */
-@media screen and (min-width:992px){
-
 }
+/* DESKTOP RESPONSIVE >992PX MD */
+/* @media screen and (min-width:992px){
+
+} */
