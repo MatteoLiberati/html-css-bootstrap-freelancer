@@ -12,7 +12,7 @@ h5{
 
 /* UTILITIES */
 .mt-20{
-    margin-top: 20px;
+    margin-top: 1.4em;
 }
 
 .relative{
@@ -114,6 +114,9 @@ main .hero .content-hero a{
 }
 
 /* -PORTFOLIO SECTION */
+main .portfolio .line-star{
+    margin-bottom: 1.4em;
+}
 
 main .portfolio img{
     border-radius: 8px;
