@@ -6,8 +6,16 @@ h4{
     font-weight: bold;
 }
 
+h4{
+    font-size: 1.9em;
+    }
+
 h5{
     margin: 5px 0;
+}
+
+body{ 
+    padding-top: 60px; 
 }
 
 /* UTILITIES */
@@ -20,13 +28,13 @@ h5{
 }
 
 .line-star hr{
-    max-width: 40%;
+    max-width: 15em;
     border-width: 2px;
     border-color: inherit;
 }
 
 .line-star hr.small-hr{
-    width: 25%;
+    max-width: 9em;
 }
 
 .line-star .fa-star{
@@ -164,14 +172,18 @@ main .portfolio .layover-img{
     opacity: 0.25;
 }
 
-main .portfolio i{
+main .portfolio .row i{
     display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     font-size: 3.5em;
     transform: translate(-50%, -50%);
-    Color: rgb(241, 237, 237);
+    Color: rgb(255, 255, 255);
+}
+
+main .portfolio .relative{
+    cursor: pointer;
 }
 
 main .portfolio .relative:hover .layover-img,
@@ -267,10 +279,12 @@ footer .copyright{
         font-size: 20px;
     }
 
-    /* MAIN */
-    main h4{
-        font-size: 3rem;
+    /* UTILITIES */
+    .line-star hr.small-hr{
+        max-width: 11em;
     }
+
+    /* MAIN */
 
     main .btn-adapted{
         font-size: 1em;
@@ -286,6 +300,14 @@ footer .copyright{
     }
 }
 /* DESKTOP RESPONSIVE >992PX MD */
-/* @media screen and (min-width:992px){
+@media screen and (min-width:992px){
+      /* GENERAL */
+    *{
+        font-size: 22px;
+    }
 
-} */
+    /* UTILITIES */
+    .line-star hr.small-hr{
+        max-width: 15em;
+    }
+}
