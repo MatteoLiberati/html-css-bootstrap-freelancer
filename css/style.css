@@ -123,6 +123,29 @@ main .btn > i{
     margin-right: 10px;
 }
 /* -CONTACT ME SECTION */
+.contact-me input,
+.contact-me textarea{
+    min-height: 45px;
+    box-shadow: none;
+    border-radius:0;
+    border: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+}
+
+.contact-me textarea{
+    height: 180px;
+}
+
+.contact-me ::placeholder{
+    color: black;
+}
+
+.contact-me button[type="submit"]{
+    margin-top: 5px;
+    border-color: transparent;
+}
 
 /* FOOTER */
 footer{
