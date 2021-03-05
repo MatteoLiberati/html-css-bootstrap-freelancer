@@ -112,7 +112,7 @@ header .nav-custom{
 }
 
 .navbar-default .navbar-nav > li > a{
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
 
 /* MAIN */
@@ -307,6 +307,10 @@ footer .copyright{
     /* MAIN */
     main .btn-adapted{
         font-size: 1em;
+    }
+    /* HEADER */
+    .navbar-default .navbar-nav > li > a{
+        font-size: 0.8em;
     }
 
     /* FOOTER */
